@@ -1,0 +1,79 @@
+#districts {
+  position:relative;
+}
+.district-info-window {
+  position:absolute;
+  width:140px;
+  height: 70px;
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 5px;
+  text-align:center;
+}
+.district-info-window h1 {
+  margin: 5px;
+  font-size: 20px;
+}
+.district-info-window h2 {
+  font-size: 16px;
+}
+.district-info-window .district-nr {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 20px;
+  height:20px;
+  border-right: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+}
+#district-1 {
+  top: 25px;
+  left: 110px;
+}
+#district-2 {
+  top: 320px;
+  left:10px;
+}
+#district-3 {
+  top: 430px;
+  left:50px;
+}
+#district-4 {
+  top: 470px;
+  left:530px;
+}
+#district-5 {
+  top: 30px;
+  left:600px;
+}
+#district-6 {
+  top: 180px;
+  left:50px;
+}
+#district-7 {
+  top: 190px;
+  left:560px;
+}
+#district-8 {
+  top: 520px;
+  left:180px;
+}
+#district-9 {
+  top: 320px;
+  left:600px;
+}
+
+.district-1 { fill:rgb(229, 245, 224); }
+
+#district-map path, #district-map line {
+  stroke: #999;
+}
+.q0-9 { fill:rgb(247,251,255); }
+.q1-9 { fill:rgb(222,235,247); }
+.q2-9 { fill:rgb(198,219,239); }
+.q3-9 { fill:rgb(158,202,225); }
+.q4-9 { fill:rgb(107,174,214); }
+.q5-9 { fill:rgb(66,146,198); }
+.q6-9 { fill:rgb(33,113,181); }
+.q7-9 { fill:rgb(8,81,156); }
+.q8-9 { fill:rgb(8,48,107); }
