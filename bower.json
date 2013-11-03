@@ -1,0 +1,25 @@
+{
+  "name": "frontend",
+  "version": "0.0.1",
+  "homepage": "https://github.com/IFGI-eGov-OpenData/frontend-bsc",
+  "authors": [
+    "Mila Frerichs <mila.frerichs@gmail.com>"
+  ],
+  "description": "Open Government Frontend App",
+  "main": "app",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery":"2.0.3",
+    "bootstrap":"v3.0.0",
+    "d3":"v3.3.9",
+    "angular":"v1.0.8"
+  }
+}
