@@ -77,7 +77,7 @@ module.exports = function(grunt) {
     browserify: {
       all: {
         src: '<%= app.app %>/scripts/main.js',
-        dest: '<%= app.app %>/scripts/bundle.js',
+        dest: '.tmp/scripts/bundle.js',
         options: {
           transform: ['debowerify','decomponentify', 'deamdify', 'deglobalify'],
         },
