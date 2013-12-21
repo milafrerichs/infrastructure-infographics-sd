@@ -14,12 +14,16 @@ module.exports = function(grunt) {
     watch: {
       coffee: {
         files: ['<%= app.app %>/scripts/{,*/}*.coffee'],
-        tasks: ['coffee:glob_to_multiple']
+        tasks: ['coffee:glob_to_multiple','concat:js']
       },
       haml: {
-        files: ['<%= app.app %>/{,*/}*.haml'],
+        files: ['<%= app.app %>/{,*/}*.haml','<%= app.app %>/templates/{,*/}*.haml'],
         tasks: ['haml:dist']
       },
+      css: {
+				files: '<%= app.app %>/**/*.scss',
+				tasks: ['sass:dist']
+			},
       livereload: {
                 options: {
                     livereload: true
@@ -74,6 +78,13 @@ module.exports = function(grunt) {
             ext: '.js'
           }
     },
+    sass: {
+			dist: {
+				files: {
+					'.tmp/stylesheets/main.css' : '<%= app.app %>/stylesheets/main.scss'
+				}
+			}
+		},
     browserify: {
       all: {
         src: '<%= app.app %>/scripts/main.js',
@@ -85,7 +96,13 @@ module.exports = function(grunt) {
     },
     concat: {
       basic: {
-              },
+        src: ['bower_components/bootstrap/dist/css/bootstrap.min.css'],
+        dest: '.tmp/stylesheets/vendor.css',
+      },
+      js: {
+        src: ['.tmp/scripts/d3.js','.tmp/scripts/districtMap.js','.tmp/scripts/barchart.js'],
+        dest: '.tmp/scripts/app_libs.js'
+      },
     },
     open: {
         server: {
@@ -104,7 +121,10 @@ module.exports = function(grunt) {
       'clean:server',
       'connect:livereload',
       'haml:dist',
+      'sass:dist',
       'coffee',
+      'concat:basic',
+      'concat:js',
       'browserify',
       'open',
       'watch'

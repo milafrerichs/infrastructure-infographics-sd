@@ -1,0 +1,56 @@
+// Typography
+///////////////////////////////////////////////////////////////////////////////
+$sans-serif: $helvetica;
+$serif: $georgia;
+
+$base-font-family: $sans-serif;
+$header-font-family: $base-font-family;
+
+// Sizes
+///////////////////////////////////////////////////////////////////////////////
+$base-font-size: 1em;
+$base-line-height: $base-font-size * 1.5;
+$base-border-radius: em(3);
+
+// Colors
+///////////////////////////////////////////////////////////////////////////////
+
+$blue: #477DCA;
+$dark-gray: #333;
+$medium-gray: #999;
+$light-gray: #DDD;
+$light-red: #FBE3E4;
+$light-yellow: #FFF6BF;
+$light-green: #E6EFC2;
+
+
+$map-blue-1-5: rgb(240, 249, 232);
+$map-blue-2-5: rgb(186, 228, 188);
+$map-blue-3-5: rgb(123, 204, 196);
+$map-blue-4-5: rgb(67, 162, 202);
+$map-blue-5-5: rgb(8, 104, 172);
+
+$map-green-blue-1-8: rgb(247, 252, 240);
+$map-green-blue-2-8: rgb(224, 243, 219);
+$map-green-blue-3-8: rgb(204, 235, 197);
+$map-green-blue-4-8: rgb(168, 221, 181);
+$map-green-blue-5-8: rgb(123, 204, 196);
+$map-green-blue-6-8: rgb(78, 179, 211);
+$map-green-blue-7-8: rgb(43, 140, 190);
+$map-green-blue-8-8: rgb(8, 88, 158);
+
+//  Font Colors
+$base-font-color: $dark-gray;
+$base-accent-color: $blue;
+
+//  Text Link Colors
+$base-link-color: $base-accent-color;
+$hover-link-color: darken($base-accent-color, 15);
+
+// Border color
+$base-border-color: $light-gray;
+
+// Flash Colors
+$error-color: $light-red;
+$notice-color: $light-yellow;
+$success-color: $light-green;

@@ -1,0 +1,10 @@
+"District","building_community","building_fire","building_library","building_sewer","build_operations","build_other","build_parks","build_police","build_water","drain_pipe","drain_channel","drain_bmp","drain_pump_station","flood_control","golf","landfill","parks","water_reclaimed","transport_bicycle","transport_bridge","transport_erosion","transport_guardrails","transport_roads","transport_street_enhance","transport_signals","transport_pedestrian_access","transport_pedestrian","transport_lighting","transport_traffic_calming","transport_signal_connection","transport_signal_mods"
+"1",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,3,7,12,1,11,13,0,1,0,0
+"2",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,2,0,3,12,9,1,19,10,3,19,0,7
+"3",0,1,1,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,6,2,1,3,6,11,7,15,13,5,12,6,5
+"4",2,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,21,2,0,0,0
+"5",3,3,0,0,0,0,6,1,0,0,0,0,0,0,0,0,2,0,1,1,0,1,1,2,0,0,0,0,0,0,0
+"6",0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,7,1,0,3,7,6,0,9,3,0,10,0,1
+"7",0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,5,1,0,1,2,0,4,0,0
+"8",0,1,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,8,3,2,4,4,3,2,0,0
+"9",0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,6,0,0,0,4,4,0,7,21,17,6,2,2

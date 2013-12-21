@@ -1,10 +1,14 @@
-%html
+%html{"ng-app" => "infrastructure"}
   %title
     Infographics
   %head
     %script{src:"scripts/bundle.js"}
+    %script{src:"scripts/app_libs.js"}
     %script{src:"scripts/app.js"}
-    %link{href: "stylesheets/screen.css", rel:"stylesheet"}
+    %link{href: "stylesheets/main.css", rel:"stylesheet"}
   %body
-    %h1 Infrastructure
-    #districts
+    #stats
+      %h1.text-center Infrastructure
+      %div(ng-view="")
+
+

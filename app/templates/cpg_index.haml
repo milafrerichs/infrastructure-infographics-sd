@@ -1,0 +1,6 @@
+%districtmap
+#district-info
+  #district-chart
+  %select(ng-model="department" ng-options="d.Department for d in departments")
+    %p
+  %a(ng-click="showNeighborhoods()") Show Neighborhoods

@@ -1,0 +1,6 @@
+#main-stats
+  %h2.text-center {{stats.project_count}}
+%districtmap
+#phases{"ng-controller" => "PhasesCtrl"}
+  .phase{"ng-repeat" => "phase in phases"}
+    %h1 {{phase}}
